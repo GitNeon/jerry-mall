@@ -1,7 +1,3 @@
 <!--index.wxml-->
-<navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar>
-<scroll-view class="scrollarea" scroll-y type="list">
-  <view class="container">
-    Weixin
-  </view>
-</scroll-view>
+<nav title="Weixin" backButton="{{false}}" homeButton="{{true}}" color="black" background="#FFF"></nav>
+

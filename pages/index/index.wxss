@@ -4,7 +4,9 @@ page {
   display: flex;
   flex-direction: column;
 }
-.scrollarea {
-  flex: 1;
-  overflow-y: hidden;
+
+.search-bar {
+  display: block;
+  height: 44px;
+  background-color: #ff5454;
 }
