@@ -1,0 +1,16 @@
+<!--components/slide-tab/index.wxml-->
+<view class="slide-wrapper">
+  <view class="slide-container">
+    <view class="swiper-container" wx:for="{{renderList}}" wx:for-item="outerList" wx:key="index" style="transform: translate({{ (index + slideIndex)*100 + '%' }})" bind:touchstart="handleTouchStart" bind:touchmove="onTouchMove">
+      <view class="swiper-item" wx:for="{{ outerList }}" wx:for-item="item" wx:key="title">
+        <image class="icon" src="{{ item.imgPath }}" alt="{{ item.title }}" />
+        <span class="title">{{ item.title }}</span>
+      </view>
+    </view>
+    <view class="indicator-container">
+      <view class="indicator-item {{ item === dotIndex ? 'active' : '' }}" wx:for="{{renderList.length}}" wx:key="item">
+        <span style="display: none;">{{ item }}, {{ dotIndex }}</span>
+      </view>
+    </view>
+  </view>
+</view>

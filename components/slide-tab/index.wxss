@@ -1,0 +1,65 @@
+/* components/slide-tab/index.wxss */
+.slide-wrapper {
+  padding: 10rpx 19rpx;
+  background: linear-gradient(180deg, #ff5454 .63%, #f4f4f4 80.65%);
+}
+
+.slide-container {
+  position: relative;
+  width: 100%;
+  height: 168rpx;
+  border-radius: 21rpx;
+  background-color: white;
+  overflow: hidden;
+}
+
+.swiper-container {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  transition: all .6s ease 0s;
+}
+
+.swiper-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  width: 72rpx;
+  height: 69rpx;
+  margin-top: 24rpx;
+  margin-bottom: 11rpx;
+}
+
+.indicator-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 12rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.indicator-item {
+  width: 24rpx;
+  height: 9rpx;
+  background-color: rgba(102, 102, 102, 0.1);
+}
+
+.indicator-item:first-of-type {
+  border-top-left-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+}
+
+.indicator-item:last-of-type {
+  border-top-right-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+}
+
+.indicator-item.active {
+  background-color: #fa2c19;
+}
