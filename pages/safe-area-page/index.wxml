@@ -1,0 +1,8 @@
+<!--pages/safe-area.wxml-->
+<view class="status-bar" style="height: {{statusBarHeight}}px;">status-bar: height - {{statusBarHeight}}</view>
+<view class="nav-bar" style="height: {{navBarHeight}}px;">nav-bar: height-{{navBarHeight}}</view>
+<view class="content" style="height: {{contentSafeHeight}}px">
+  <button bind:tap="back">返回</button>
+  content: height-{{contentSafeHeight}}
+</view>
+<view class="bottom-safe" style="height: {{bottomSafeHeight}}px;">bottom-safe: height-{{bottomSafeHeight}}</view>

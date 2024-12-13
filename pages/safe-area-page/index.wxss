@@ -1,0 +1,31 @@
+/* pages/safe-area.wxss */
+page {
+  background-color: rgb(232, 239, 243);
+}
+
+view {
+  width: 100%;
+  color: #fff;
+  font-size: 36rpx;
+}
+
+.status-bar {
+  background-color: rgb(55, 150, 187);
+}
+
+.nav-bar {
+  background-color: bisque;
+}
+
+.safe {
+  background-color: burlywood;
+}
+
+.content {
+  background-color: rgb(243, 86, 222);
+}
+
+.bottom-safe {
+  background-color: rgb(59, 112, 209);
+}
+

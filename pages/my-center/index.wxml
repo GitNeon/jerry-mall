@@ -1,2 +1,5 @@
 <!--pages/my-center/index.wxml-->
-<text>个人中心页面</text>
+<view style="margin-top: 200px;">
+  <button bind:tap="goTestAreaPage" type="primary" plain="true">点我跳转到安全区域测试页面</button>
+</view>
+

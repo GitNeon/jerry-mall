@@ -10,7 +10,8 @@
     "pages/cart/index",
     "pages/my-center/index",
     "pages/search/index",
-    "pages/product-details/index"
+    "pages/goods-details/index",
+    "pages/safe-area-page/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",

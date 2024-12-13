@@ -1,6 +1,7 @@
 // pages/my-center/index.js
+var safeArea = require('../../behaviors/safe-area.js');
 Page({
-
+  behaviros: [safeArea],
   /**
    * 页面的初始数据
    */
@@ -62,5 +63,11 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+
+  goTestAreaPage() {
+    wx.navigateTo({
+      url: '/pages/safe-area-page/index'
+    })
   }
 })

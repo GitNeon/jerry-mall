@@ -1,12 +1,12 @@
 <view class="nav-bar {{extClass}}">
-  <view class="nav-bar__inner {{ios ? 'ios' : 'android'}}" style="color: {{color}}; background: {{background}}; {{displayStyle}}; {{innerPaddingRight}}; {{safeAreaTop}}">
+  <view class="nav-bar__inner" style="color: {{color}}; background: {{background}}; {{displayStyle}}; {{innerPaddingRight}}; {{safeAreaTop}}">
 
     <!-- 左侧按钮 -->
     <view class='nav-bar__left' style="{{leftWidth}}">
       <block wx:if="{{backButton || homeButton}}">
         <view class="nav-btn-container">
           <block wx:if="{{backButton}}">
-            <image class="back-btn" src="../../assets/images/common/back.png" mode="aspectFill" alt="back" />
+            <image bind:tap="back" class="back-btn" src="../../assets/images/common/back.png" mode="aspectFill" alt="back" />
           </block>
           <block wx:if="{{homeButton}}">
             <image class="home-btn" src="../../assets/images/common/home.png" mode="aspectFill" alt="back" />

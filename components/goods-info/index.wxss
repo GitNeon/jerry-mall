@@ -1,0 +1,31 @@
+.goods-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 16rpx;
+  margin-bottom: 16rpx;
+}
+
+.goods-info__cover__img {
+  border-radius: 16rpx 16rpx 0 0;
+  width: 100%;
+  height: 336rpx;
+}
+.goods-info__desc__wrapper {
+  margin: 16rpx;
+}
+
+.goods-title {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.goods-price {
+  padding-top: 16rpx;
+  color: #ff4142;
+}

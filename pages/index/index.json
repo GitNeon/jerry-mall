@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "nav": "/components/nav/index",
-    "slide-tab": "/components/slide-tab/index"
+    "slide-tab": "/components/slide-tab/index",
+    "goods-info": "/components/goods-info/index"
   }
 }

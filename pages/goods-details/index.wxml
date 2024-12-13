@@ -1,0 +1,56 @@
+<!--pages/product-details/index.wxml-->
+<view>
+  <nav id="nav-bar" title="{{title}}" backButton="{{showBack}}" homeButton="{{showHome}}" loading="{{loading}}" background="{{background}}" color="{{color}}"></nav>
+  <scroll-view style="{{scrollViewHeight}}" scroll-y="{{true}}" scroll-with-animation="{{true}}">
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+    <view>商品详情页</view>
+  </scroll-view>
+</view>

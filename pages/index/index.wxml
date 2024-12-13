@@ -1,3 +1,47 @@
 <!--index.wxml-->
-<nav title="首页" backButton="{{false}}" homeButton="{{false}}" loading="{{false}}" background="#ff5454" color="white"></nav>
-<slide-tab></slide-tab>
+<nav id="nav-bar" title="{{title}}" backButton="{{showBack}}" homeButton="{{showHome}}" loading="{{loading}}" background="{{background}}" color="{{color}}"></nav>
+<scroll-view style="{{scrollViewHeight}}" scroll-y="{{true}}" scroll-with-animation="{{true}}">
+  <!-- 滑动tab页  -->
+  <slide-tab></slide-tab>
+
+  <!-- 秒杀 -->
+  <view class="skill-container">
+    <view class="skill-container__inner">
+      <view class="skill-desc">
+        <view class="skill-desc__title"></view>
+        <view class="skill-desc__subtitle">限时低价</view>
+        <view class="skill-desc__link">
+          <view class="skill-desc__link__title">去抢购</view>
+          <view class="skill-desc__link__img"></view>
+        </view>
+      </view>
+      <view class="skill-good">
+        <view class="skill-good__box">
+          <view class="skill-good__box--item">
+            <image class="skill-good__box__img" src="https://m.360buyimg.com/seckillcms/jfs/t1/245547/17/18696/95316/66ed431aFa11e618f/edbe3c8c27a60d7e.png" alt="1" />
+            <view class="skill-good__box__price">¥749</view>
+          </view>
+          <view class="skill-good__box--item">
+            <image class="skill-good__box__img" src="https://m.360buyimg.com/seckillcms/jfs/t1/223064/1/44757/143551/6718bb5dF9b89e3dc/5183dc4477bab79b.jpg" alt="1" />
+            <view class="skill-good__box__price">¥19.9</view>
+          </view>
+          <view class="skill-good__box--item">
+            <image class="skill-good__box__img" src="https://m.360buyimg.com/seckillcms/jfs/t1/195408/22/54063/149425/6757b698F865cc582/678abf9d0119f7aa.jpg" alt="1" />
+            <view class="skill-good__box__price">¥3089</view>
+          </view>
+          <view class="skill-good__box--item">
+            <image class="skill-good__box__img" src="https://m.360buyimg.com/seckillcms/jfs/t1/124588/9/32568/76562/648a881fF41c5e7ee/8c7c05048bd690be.jpg" alt="1" />
+            <view class="skill-good__box__price">¥8.9</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 首页商品列表 -->
+  <view class="recommand-container">
+    <view style="width: calc(50% - 10rpx)" wx:for="{{goodsList}}" wx:for-item="goods" wx:key="goodsId">
+        <goods-info coverImgUrl="{{goods.coverImgUrl}}" goodsTitle="{{goods.goodsTitle}}" goodsPrice="{{goods.goodsPrice}}" bind:tap="goDetailPage"></goods-info>
+    </view>
+  </view>
+</scroll-view>

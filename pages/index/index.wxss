@@ -10,3 +10,118 @@ page {
   height: 44px;
   background-color: #ff5454;
 }
+
+.skill-container {
+  padding: 10rpx 19rpx;
+  margin-bottom: 18rpx;
+}
+
+.skill-container__inner {
+  position: relative;
+  height: 168rpx;
+  border-radius: 21rpx;
+  background-image: url("https://img11.360buyimg.com/img/jfs/t1/226923/11/7714/45152/65782c91F9d91466d/24928a901f4c3f58.png");
+  background-size: 100% 100%;
+}
+
+.skill-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: calc(22%);
+  height: 100%;
+}
+
+.skill-desc__title {
+  width: 130rpx;
+  height: 26rpx;
+  background-image: url(https://img30.360buyimg.com/img/jfs/t1/227615/23/8080/1616/65782dd8F605d99af/0d97136b32d5ab1b.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.skill-desc__subtitle {
+  width: 130rpx;
+  color: #fff;
+  margin-top: 12rpx;
+}
+
+.skill-desc__link {
+  width: 100rpx;
+  height: 32rpx;
+  margin-top: 18rpx;
+  margin-left: -24rpx;
+  background-color: #fff;
+  border-radius: 16rpx;
+}
+
+.skill-desc__link__title {
+  padding-left: 10rpx;
+  font-size: 19rpx;
+  line-height: 32rpx;
+  color: #fa2c19;
+  display: inline-block;
+  text-align: center;
+  transform: translateY(-2px);
+}
+
+.skill-desc__link__img {
+  display: inline-block;
+  width: 20rpx;
+  height: 19rpx;
+  background-image: url(https://img20.360buyimg.com/img/jfs/t1/238192/15/7188/265/65783069F1178bf7d/b15fdc2244088b71.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transform: translate(4px,-1px);
+}
+
+.skill-good {
+  display: flex;
+  float: left;
+  width: calc(78% - 8rpx);
+  height: 152rpx;
+  margin-top: 8rpx;
+  padding-top: 20rpx;
+  padding-bottom: 12rpx;
+  border-radius: 21rpx;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.skill-good__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.skill-good__box__img {
+  width: 107rpx;
+  height: 107rpx;
+}
+
+.skill-good__box__price {
+  color: #fa2c19;
+  font-weight: 600;
+  text-align: center;
+}
+
+.skill-good__box--item {
+  margin-right: 26rpx;
+}
+
+.skill-good__box--item:last-of-type {
+  margin-right: 0;
+}
+
+.recommand-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16rpx;
+  padding: 10rpx 19rpx;
+  background-color: #f6f6f6;
+  overflow: hidden;
+}
